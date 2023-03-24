@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  border: 5px solid red;
+}
+.top,
+.footer {
+  height: 40px;
+  background-color: #f4f9fe;
+  border: 5px solid rgb(23, 0, 128);
+}
+.item-h-t-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 5px solid rgb(23, 0, 128);
+}
+
+.header {
+  width: 1600px;
+  font-size: 34px;
+  border: 5px solid gray;
+}
+
+.tiles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1600px;
+
+  gap: 10px;
+
+  border: 5px solid gray;
+}
+
+.tile {
+  height: 140px;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #f4f9fe;
+
+  border: 5px solid rgb(124, 8, 190);
+}
+
+.tile-item-text {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  height: 200px;
+  width: 400px;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.tile-item-img {
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.img-truck {
+  background-image: url(/IMG/Truck.png);
+  background-size: 150px;
+}
+
+.img-pills {
+  background-image: url(/IMG/Pills.png);
+  background-size: 250px;
+}
+
+.img-vegetables {
+  background-image: url(/IMG/Vegetables.png);
+  background-size: 190px;
+}
+
+.img-tools {
+  background-image: url(/IMG/Tools.png);
+  background-size: 170px;
+}
+
+.img-futuristicTruck {
+  background-image: url(/IMG/FuturisticTruck.png);
+  background-size: 150px;
+}
